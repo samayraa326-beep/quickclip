@@ -40,6 +40,8 @@ export default function Home() {
         </div>
       </nav>
 
+      <section className="demo-section"><div className="demo-wrap"><div className="demo-head"><span>QUICKCLIP DEMO</span><span className="demo-live">● LIVE DEMO</span></div><div className="demo-window"><div className="demo-side"><div className="demo-logo">Q</div><div className="demo-progress"><span className="active"/><span/><span/><span/></div></div><div className="demo-content"><div className="demo-title">Find the right edit for your content</div><div className="demo-request"><small>YOUR REQUEST</small><div className="demo-tags"><b>Instagram Reel</b><b>30–60 sec</b><b>Talking Head</b></div><p>Captions, clean cuts, engaging pacing</p></div><div className="demo-results"><div className="demo-result-label">AVAILABLE PROFESSIONALS</div><div className="demo-editors"><div className="demo-editor e1"><div className="avatar">A</div><div><b>Arjun S.</b><small>Reels · 4.9 ★ · 3 yrs experience</small><small>Motion graphics · Captions</small></div><span className="accepted">ACCEPTED ✓</span></div><div className="demo-editor e2"><div className="avatar">M</div><div><b>Mehak R.</b><small>Short-form · 4.8 ★ · 2 yrs experience</small><small>Captions · Color grading</small></div><button>Review</button></div><div className="demo-editor e3"><div className="avatar">K</div><div><b>Kunal P.</b><small>Social ads · 5.0 ★ · 4 yrs experience</small><small>Effects · Sound design</small></div><button>Review</button></div></div></div></div></div></div></section>
+
       <section className="hero">
         <div className="hero-copy">
           <div className="pill">✦ On-demand video editing</div>
