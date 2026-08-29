@@ -40,53 +40,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="demo-section"><div className="demo-copy"><span className="eyebrow">QUICKCLIP</span><h2>Get your edited video in less than 30 min.</h2><p>Tell us what you need. Get offers from professionals who fit your video.</p><div className="demo-points"><span>✓ See ratings & experience</span><span>✓ Compare who responds</span><span>✓ Pick the one you like</span></div></div><div className="phone"><div className="phone-notch"/><div className="phone-screen"><div className="phone-status"><span>9:41</span><span>● ● ▰</span></div><div className="appbar"><div className="phone-brand"><span>Q</span><b>quickclip</b></div><span className="dots">•••</span></div><div className="demo-stage stage-one"><small className="stage-label">1 · YOUR REQUEST</small><h3>What are you making?</h3><div className="request-chips"><span>Travel Reel</span><span>30–60 sec</span><span>Captions</span></div><div className="brief-box">Fast cuts • cinematic music • subtitles</div><button className="phone-action">Send request <b>→</b></button></div><div className="demo-stage stage-two"><div className="matching"><span className="pulse-dot"/> 3 professionals are responding</div><div className="match-line"/><div className="found">MATCH FOUND</div></div><div className="demo-stage stage-three"><small className="stage-label">2 · CHOOSE WHO YOU LIKE</small><div className="mobile-person accepted-person"><div className="mobile-avatar">A</div><div className="person-info"><b>Arjun S. <span>✓</span></b><small>4.9 ★ · 3 yrs experience</small><small>Reels · Motion graphics · Captions</small></div><strong>Choose</strong></div><div className="mobile-person"><div className="mobile-avatar">M</div><div className="person-info"><b>Mehak R.</b><small>4.8 ★ · 2 yrs experience</small><small>Short-form · Color grading</small></div><button>View</button></div><div className="mobile-person"><div className="mobile-avatar">K</div><div className="person-info"><b>Kunal P.</b><small>5.0 ★ · 4 yrs experience</small><small>Effects · Sound design</small></div><button>View</button></div><div className="choose-note">Review their work, price and qualifications — then continue with your choice.</div></div></div></div></section>
-
-      <section className="content-showcase"><div className="showcase-head"><div><span className="eyebrow">ANY CONTENT. ONE PLACE.</span><h2>Whatever you create, get it edited.</h2></div><p>Different styles. Different stories. One simple way to get them ready to post.</p></div><div className="content-cards"><article className="content-card travel"><span>TRAVEL</span><b>Chase the moment.</b><i>▶</i></article><article className="content-card funny"><span>FUNNY</span><b>Make them stop scrolling.</b><i>▶</i></article><article className="content-card emotional"><span>EMOTIONAL</span><b>Let the story hit.</b><i>▶</i></article><article className="content-card podcast"><span>PODCAST</span><b>Turn conversations into clips.</b><i>▶</i></article></div></section>\n\n      <section className="hero">
-        <div className="hero-copy">
-          <div className="pill">✦ On-demand video editing</div>
-          <h1>Get your video<br /><em>in less than 30 min.</em></h1>
-          <p>Tell us what you’re creating, share your footage and get professional editing when you need it.</p>
-          <button className="primary" onClick={() => setOpen(true)}>
-            Start a video request <span>→</span>
-          </button>
-          <div className="trust">
-            <span>✓ Transparent pricing</span>
-            <span>✓ Fast turnaround</span>
-            <span>✓ Simple workflow</span>
-          </div>
-        </div>
-
-        <div className="hero-card">
-          <div className="mini-top"><span>QUICKCLIP</span><span className="live">● LIVE</span></div>
-          <div className="preview"><div className="play">▶</div><div className="timeline"><i /><i /><i /><i /><i /></div></div>
-          <div className="preview-info">
-            <div><b>Your next video</b><small>Professional editing</small></div>
-            <strong>From ₹299</strong>
-          </div>
-        </div>
-      </section>
-
-      <section id="how" className="section">
-        <div className="section-head">
-          <div><span className="eyebrow">HOW IT WORKS</span><h2>From raw footage to ready to post.</h2></div>
-          <p>Everything you need to turn your content into a finished video, without the back-and-forth.</p>
-        </div>
-        <div className="steps">
-          {["Describe", "Upload", "Request", "Receive"].map((item, index) => (
-            <article key={item}>
-              <div className="number">0{index + 1}</div>
-              <h3>{item}</h3>
-              <p>{[
-                "Choose your format, length and editing style.",
-                "Add the footage and a quick creative brief.",
-                "See your estimate and submit the request.",
-                "Get your finished video when it’s ready.",
-              ][index]}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <section className="demo-section"><div className="demo-copy"><span className="eyebrow">QUICKCLIP</span><h2>Get your edited video in less than 30 min.</h2><p>Watch how a request moves from idea to a professional match.</p></div><div className="phone"><div className="phone-notch"/><div className="phone-screen"><div className="phone-status"><span>9:41</span><span>● ● ▰</span></div><div className="appbar"><div className="phone-brand"><span>Q</span><b>quickclip</b></div><span className="dots">•••</span></div><div className="flow-stage request-stage"><div className="flow-step">01 <span>CREATE REQUEST</span></div><h3>Tell us what you need</h3><div className="request-card"><b>Travel Reel</b><span>30–60 sec · Vertical</span><span>Fast cuts · Captions · Music</span></div><div className="flow-button">Request a video <b>→</b></div></div><div className="flow-stage matching-stage"><div className="flow-step">02 <span>MATCHING</span></div><div className="radar"><div className="radar-ring"/><div className="radar-ring two"/><span>Q</span></div><h3>Professionals are responding</h3><p>Matching by content type, experience and availability.</p><div className="response-count"><b>3</b> matches found</div></div><div className="flow-stage choices-stage"><div className="flow-step">03 <span>YOUR CHOICE</span></div><h3>Choose who you want</h3><div className="choice-card selected"><div className="mobile-avatar">A</div><div className="person-info"><b>Arjun S. <span>✓</span></b><small>4.9 ★ · 3 yrs experience</small><small>Reels · Motion · Captions</small></div><strong>Choose</strong></div><div className="choice-card"><div className="mobile-avatar">M</div><div className="person-info"><b>Mehak R.</b><small>4.8 ★ · 2 yrs experience</small><small>Short-form · Color</small></div><button>View</button></div><div className="choice-card"><div className="mobile-avatar">K</div><div className="person-info"><b>Kunal P.</b><small>5.0 ★ · 4 yrs experience</small><small>Effects · Sound</small></div><button>View</button></div><div className="choice-note">Compare their work, experience and price. Continue with the one you prefer.</div></div><div className="flow-stage accepted-stage"><div className="flow-step">04 <span>CONFIRMED</span></div><div className="confirmed-icon">✓</div><h3>Request accepted</h3><p>Arjun is now working on your request.</p><div className="confirmed-card"><b>Estimated delivery</b><strong>Under 30 min</strong></div></div></div></div></section>
 
       <section className="reviews"><div className="showcase-head"><div><span className="eyebrow">LOVED BY USERS</span><h2>People notice the difference.</h2></div><p>Real reactions to the things that matter: quality, speed and price.</p></div><div className="review-grid"><article><div className="review-top"><span className="review-avatar">R</span><div><b>Riya Mehta</b><small>Travel creator</small></div><strong>★★★★★</strong></div><p>“The cuts matched my travel footage perfectly. I got the vibe I wanted without spending hours explaining it.”</p><div className="review-meta"><span>₹299</span><span>Fast turnaround</span></div></article><article><div className="review-top"><span className="review-avatar">A</span><div><b>Aditya Jain</b><small>Content creator</small></div><strong>★★★★★</strong></div><p>“Loved that I could compare people before choosing. The price was clear and the final video looked premium.”</p><div className="review-meta"><span>₹399</span><span>Great quality</span></div></article><article><div className="review-top"><span className="review-avatar">N</span><div><b>Neha Kapoor</b><small>Podcast host</small></div><strong>★★★★★</strong></div><p>“I needed clips quickly and got exactly what I asked for. Super simple process and genuinely affordable.”</p><div className="review-meta"><span>₹499</span><span>Worth the price</span></div></article></div></section>\n\n      <section id="why" className="why">
         <div>
