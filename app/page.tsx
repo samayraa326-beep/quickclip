@@ -43,7 +43,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <div className="pill">✦ On-demand video editing</div>
-          <h1>Great videos,<br /><em>without the wait.</em></h1>
+          <h1>Get your video<br /><em>in less than 30 min.</em></h1>
           <p>Tell us what you’re creating, share your footage and get professional editing when you need it.</p>
           <button className="primary" onClick={() => setOpen(true)}>
             Start a video request <span>→</span>
